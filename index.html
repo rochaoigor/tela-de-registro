@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <title>Register</title>
+</head>
+<body>
+<section class="container col-11 md-9" id="form-container">
+    <div class="row gx-5">
+        <div class="col-md-6">
+            <h2>Realize seu cadastro</h2>
+            <form>
+                <div class="form-floating mb-3">
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Digite o seu nome ">
+                    <label for="name" class="form-label">Digite o seu nome</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" name="lastname" id="lastname" class="form-control" placeholder="Digite o seu sobrenome ">
+                    <label for="lastname" class="form-label">Digite o seu sobrenome</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" name="e-mail" id="e-mail" class="form-control" placeholder="Digite o seu e-mail ">
+                    <label for="email" class="form-label">Digite o seu e-mail</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="password" name="password" id="password" class="form-control" placeholder="Digite a sua senha ">
+                    <label for="password" class="form-label">Digite a sua senha</label>
+                </div>
+                 <div class="form-floating mb-3">
+                    <input type="password" name="Confirmpassword" id="Confirmpassword" class="form-control" placeholder="Confirme sua senha">
+                    <label for="Confirmpassword" class="form-label">Confirme sua senha</label>
+                </div>
+                <div class="mb-3">
+                    <div class="form-check mb-2">
+                        <input type="checkbox" class="form-check-input" name="agree-form" id="agree-form" value="">
+                        <label for="agree-form" class="form-check-label">Você aceita os <a href="#">termos de serviço?</a></label>
+                    </div>
+                    <div class="form-check mb-2">
+                        <input type="checkbox" class="form-check-input" name="newsletter" id="newsletter" value="" checked>
+                        <label for="newsletter" class="form-check-label">Deseja receber nossas Newsletter?</label>
+                    </div>
+                    <input type="submit"  class="btn btn-primary" value="Cadastrar">
+                </div>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <img src="img/undraw_hello_re_3evm.svg" alt="Hello New Customer" class="img-fluid">
+                </div>
+                <div class="col-12" id="link-container">
+                    <a href="../tela-de-login/index.html">Eu já tenho uma conta</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+</body>
+</html>
